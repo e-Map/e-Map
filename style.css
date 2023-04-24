@@ -31,6 +31,11 @@ nav {
   position: absolute;
 }
 
+#rex{
+  top: 320px; 
+  right: 100px; 
+}
+
 .kavin {
   position: absolute;
   left: 60%;
