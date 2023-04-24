@@ -19,9 +19,6 @@ nav {
   position: relative;
 }
 
-li {
-  display: inline-block;
-}
 .home-btn {
   position: absolute;
   right: 5px;
@@ -32,6 +29,38 @@ li {
 }
 
 .lam-tin {
-  width: 500px;
-  height: auto;
+  width: 100%;
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+}
+
+.left-col {
+  width: 50%;
+  height: 60vh;
+  background-color: rgb(33, 89, 241);
+}
+
+.right-col {
+  width: 50%;
+  height: 60vh;
+}
+
+.kirby {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+h1,
+p {
+  margin: 60px;
+  color: lightblue;
+}
+
+h1 {
+  font-size: 100px;
 }
