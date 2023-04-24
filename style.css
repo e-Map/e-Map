@@ -31,13 +31,13 @@ nav {
   position: absolute;
 }
 
-#rex{
-  top: 42vh; 
-  right: 7vw; 
+#rex {
+  top: 42vh;
+  right: 7vw;
 }
 
 .kavin {
   position: absolute;
-  left: 60%;
-  top: 80%;
+  left: 10px;
+  top: 25vh;
 }
