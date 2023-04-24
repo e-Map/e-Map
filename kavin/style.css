@@ -46,3 +46,10 @@ nav {
 .intro {
   color: darkgray;
 }
+
+a {
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  text-align: center;
+}
