@@ -3,16 +3,16 @@ html {
   width: 100%;
 }
 
-body{
+body {
   margin: 0;
   background-image: url("images/subway-route-map.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
 }
 
-nav{
-  color: white; 
+nav {
+  color: white;
   font-size: 25px;
   font-weight: bold;
   background-color: darkslateblue;
@@ -22,11 +22,10 @@ nav{
   padding-top: 10px;
 }
 
-.map{
-  position: relative; 
+.map {
+  position: relative;
 }
 
-.node{
-  position: absolute; 
+.node {
+  position: absolute;
 }
-
