@@ -21,8 +21,16 @@ nav {
   height: 60px;
   margin: 0;
   padding-top: 10px;
+  position: relative;
 }
-
+.home-btn {
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+.fa-house:hover {
+  color: purple;
+}
 .map {
   position: relative;
 }
@@ -31,13 +39,18 @@ nav {
   position: absolute;
 }
 
-#rex{
-  top: 42vh; 
-  right: 7vw; 
+#rex {
+  top: 42vh;
+  right: 7vw;
 }
 
 .kavin {
   position: absolute;
   left: 60%;
   top: 80%;
+}
+
+#teddy {
+  top: 42vh;
+  right: 16vw;
 }
