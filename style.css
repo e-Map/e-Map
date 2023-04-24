@@ -6,9 +6,10 @@ html {
 body {
   margin: 0;
   background-image: url("images/subway-route-map.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 nav {
@@ -28,4 +29,10 @@ nav {
 
 .node {
   position: absolute;
+}
+
+.kavin {
+  position: absolute;
+  left: 60%;
+  top: 80%;
 }
