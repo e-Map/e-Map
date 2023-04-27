@@ -40,17 +40,24 @@ nav {
 }
 
 #rex {
-  top: 42vh;
+  top: 44vh;
   right: 7vw;
 }
 
 .kavin {
   position: absolute;
-  left: 10px;
-  top: 25vh;
+  left: 24vw;
+  top: 41vh;
 }
 
 #teddy {
-  top: 42vh;
-  right: 16vw;
+  top: 46vh;
+  right: 19vw;
+}
+.map img {
+  width: 100px;
+}
+
+.map img:hover {
+  transform: scale(1.2);
 }
